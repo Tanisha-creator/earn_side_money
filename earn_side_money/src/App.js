@@ -1,10 +1,17 @@
 import './App.css';
+import Landing from "./components/Landing.js";
+import Explore from "./components/Explore.js";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hey!! Developer. Start contributing</h1>
-    </div>
+    <>
+    <Landing/>
+    <Explore/>
+   
+      
+ 
+   
+    </>
   );
 }
 
