@@ -2,12 +2,12 @@ import down from "../images/down.png";
 import money from "../images/money 1.png";
 import up from "../images/Vector.png";
 import low from "../images/Vector (1).png";
-var big={height:"30rem"};
+import Explore from "./Explore";
 function Landing()
 {
 return(
     <>
-    <div class="landing" id="home">
+    <div class="landing" >
         <div class="heading">
             <p>Earn Side Money</p>
         </div>
@@ -18,11 +18,12 @@ return(
             </a>
         </div>
       <img src={money} class="rightbottom"></img>
-      <img src={low} style={big}class="leftbottomup"></img>
+      <img src={low} class="leftbottomup"></img>
       <img src={up} class="leftbottomlow"></img>
       
         
         </div>
+        <Explore/>
     </>
 )
 }
