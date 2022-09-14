@@ -1,5 +1,8 @@
 import React, { useState } from "react"
 import GoogleLogin from "react-google-login"
+import pic1 from "../Images/BlueVector1.png"
+import pic2 from "../Images/BlueVector2.png"
+
 
 export default function (props) {
   let [authMode, setAuthMode] = useState("signin")
@@ -123,6 +126,13 @@ export default function (props) {
           </div>
         </div>
       </form>
+      <div className="vector1">
+        <img src={pic1}/>
+      </div>
+      <div className="vector2">
+        <img src={pic2}/>
+      </div>
     </div>
   )
 }
+

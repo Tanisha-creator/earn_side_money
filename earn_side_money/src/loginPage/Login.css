@@ -1,4 +1,6 @@
-
+  body{
+    overflow: hidden;
+  }
   .Auth-form-container {
     background-color: #CCCCCC;
     display: flex;
@@ -46,6 +48,17 @@
     display: flex;
     justify-content: center;
     padding-bottom: 16px;
+  }
+
+  .vector1{
+    position: relative;
+    left: 34%;
+    top: 30%;
+  }
+  .vector2{
+    position: relative;
+    left: 19%;
+    top: 35%;
   }
 
   
