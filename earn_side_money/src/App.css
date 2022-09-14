@@ -40,8 +40,7 @@ line-height: 150px;
   height:50px;
   animation: move 1s infinite;
   transform: rotate(180deg);
-  position: absolute;
-  top:100vh;
+
 
 }
 @keyframes move {
@@ -95,14 +94,14 @@ line-height: 150px;
 .leftbottomup{
   position:absolute;
   left:0;
-  top:34vh;
-  height:25rem;
+  top:40vh;
+  height:27rem;
 }
 .leftbottomlow{
   position:absolute;
   left:0;
-  top:45vh;
-  height:25rem;
+  top:50vh;
+  height:22.5rem;
 }
 .rightbottomup{
   position:absolute;
@@ -115,4 +114,7 @@ line-height: 150px;
   right:0;
   top:206vh;
   height:15rem;
+}
+.logo{
+  height:0px;
 }
