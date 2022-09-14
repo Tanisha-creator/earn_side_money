@@ -1,7 +1,7 @@
 import React, { useState } from "react"
 import GoogleLogin from "react-google-login"
-import pic1 from "../Images/BlueVector1.png"
-import pic2 from "../Images/BlueVector2.png"
+import pic1 from "../images/BlueVector1.png"
+import pic2 from "../images/BlueVector2.png"
 
 
 export default function (props) {

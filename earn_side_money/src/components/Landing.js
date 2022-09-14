@@ -7,7 +7,7 @@ function Landing()
 {
 return(
     <>
-    <div class="landing" id="home">
+    <div class="landing" >
         <div class="heading">
             <p>Earn Side Money</p>
         </div>
